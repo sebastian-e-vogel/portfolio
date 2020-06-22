@@ -50,3 +50,12 @@
 .container-welcome {
   background: var(--secondary-color);
 }
+
+
+.aboutMe {
+  padding: 40px;
+  background: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

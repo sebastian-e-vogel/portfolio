@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import AboutMe from "./components/aboutMe";
+import Skills from "./components/skills";
 
 
 
@@ -13,6 +14,9 @@ import AboutMe from "./components/aboutMe";
       </section>
       <section className="aboutMe">
         <AboutMe />
+      </section>
+           <section className="skills">
+        <Skills />
       </section>
     </div>
   );

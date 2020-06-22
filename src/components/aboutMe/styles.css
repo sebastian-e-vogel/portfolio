@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
 
 .profile {
   display: flex;
@@ -7,8 +7,7 @@
   align-items: center;
   padding: 5px;
   margin-top: 25px;
-  width: 50%;
-}
+  width: 50%;}
 
 .container-profile {
   display: flex;
@@ -35,6 +34,7 @@
   line-height: 30px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .profile-description span {
