@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap')
 
 .profile {
   display: flex;
@@ -17,12 +16,24 @@
   align-items: center;
 }
 
+.photo {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 0.4rem solid #4b6cc1;
+}
+
+.profile-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+  margin-top: 20px;
+}
 
 .profile-description {
   color: #828282;
   margin-top: 20px;
   line-height: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
 }
 
