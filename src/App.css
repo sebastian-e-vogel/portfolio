@@ -1,38 +1,52 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #1f1d1d;
+  --secondary-color: rgb(94, 94, 94);
+  --third-color: #dcd9d9;
+  --four-color: #f7f7f7;
+  --detail-color: #4b6cc1;
+  --fifth-optional: #ece4d8;
+}
+
 .App {
+  font-family: sans-serif;
   text-align: center;
+  margin: 0;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome {
+  font-family: "montserrat";
+  color: white;
+  background-color: var(--main-color);
+  width: 50%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-right: 3px solid var(--detail-color);
 }
 
-.App-link {
-  color: #61dafb;
+.welcome::before {
+  content: "BIENVENIDO";
+  border-top: 3px solid var(--detail-color);
+  border-left: 3px solid var(--detail-color);
+  border-bottom: 3px solid var(--detail-color);
+  font-weight: 900;
+  font-size: 5em;
+  background: var(--secondary-color);
+  position: relative;
+  width: 80.4%;
+  left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-welcome {
+  background: var(--secondary-color);
 }
