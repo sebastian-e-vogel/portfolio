@@ -34,7 +34,7 @@
   .technologie-name {
     font-family: "roboto";
     text-align: center;
-    color: #4b6cc1;
+    color: var(--detail-color);
     bottom: 0;
     transition: all 0.5s;
     text-transform: none;
@@ -42,7 +42,7 @@
   }
   
   .line {
-    border: 1px solid #4b6cc1;
+    border: 1px solid var(--detail-color);
     width: 50%;
     display: flex;
     margin: 10px auto;

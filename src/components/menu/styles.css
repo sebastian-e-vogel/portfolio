@@ -1,0 +1,45 @@
+
+.header {
+  font-family: "roboto";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+.header-logo {
+  width: 40%;
+  font-size: 40px;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-navigation a {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.header-navigation a:hover:after {
+  transform: scaleX(0.7);
+}
+
+.header-navigation a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px var(--detail-color);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}

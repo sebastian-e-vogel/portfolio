@@ -19,7 +19,7 @@
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
-  border: 0.4rem solid #4b6cc1;
+  border: 0.4rem solid var(--detail-color);
 }
 
 .profile-title {
@@ -38,5 +38,5 @@
 }
 
 .profile-description span {
-  color: #4b6cc1;
+  color: var(--detail-color);
 }
