@@ -4,6 +4,8 @@ import './App.css';
 import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Menu from "./components/menu";
+import Project from './components/project';
+
 
 
 
@@ -20,6 +22,11 @@ import Menu from "./components/menu";
            <section className="skills">
         <Skills />
       </section>
+       <section className="project">
+          <Project />
+          <Project />
+          <Project />
+        </section>
     </div>
   );
 }
