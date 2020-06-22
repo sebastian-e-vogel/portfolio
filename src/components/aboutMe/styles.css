@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 25px;
+  width: 50%;
+}
+
+.container-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.profile-description {
+  color: #828282;
+  margin-top: 20px;
+  line-height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}
+
+.profile-description span {
+  color: #4b6cc1;
+}
