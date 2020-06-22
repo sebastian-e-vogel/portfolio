@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
 *,
 *::before,
 *::after {
@@ -55,6 +55,20 @@
 .aboutMe {
   padding: 40px;
   background: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.skills {
+  padding: 60px;
+  background: var(--four-color);
   display: flex;
   justify-content: center;
   align-items: center;
