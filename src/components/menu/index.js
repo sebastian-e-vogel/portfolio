@@ -1,25 +1,50 @@
 import React from "react";
 import "./styles.css";
+import { Link } from "react-scroll";
 
 const Menu = () => {
   return (
     <div className="header">
       <div className="header-logo">
-        <a href="#logo" > SEB VOG </a>
+        <a href="#seb"> SEB VOG </a>
       </div>
       <div className="header-navigation">
-        <a href="#aboutMe">
+        <Link
+          activeClass="active"
+          to="aboutMe"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
           Sobre Mi
-        </a>
-        <a href="#skills">
+        </Link>
+        <Link
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
           Skills
-        </a>
-        <a href="#project">
+        </Link>
+        <Link
+          activeClass="active"
+          to="project"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
           Proyectos
-        </a>
-        <a href="#contact">
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
           Contacto
-        </a>
+        </Link>
       </div>
     </div>
   );

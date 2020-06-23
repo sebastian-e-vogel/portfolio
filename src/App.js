@@ -26,8 +26,6 @@ import Contact from "./components/contact";
       </section>
        <section className="project">
           <Project />
-          <Project />
-          <Project />
         </section>
               <section className="contact">
         <div>
