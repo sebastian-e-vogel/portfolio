@@ -1,33 +1,41 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Menu from "./components/menu";
-import Project from './components/project';
+import Project from "./components/project";
 import Contact from "./components/contact";
+import { styled } from 'styled-components';
 
-
-
-
-
- const App = () => {
+const App = () => {
   return (
     <div className="aplication">
-          <Menu />
+      <Menu />
       <section className="container-welcome">
         <div className="welcome" />
       </section>
+      <div className="triangle" />
+      <div className="triangle-two" />
       <section className="aboutMe">
         <AboutMe />
       </section>
-           <section className="skills">
+      <div className="triangle-inverted" />
+      <div className="triangle-inverted-two" />
+      <section className="skills">
         <Skills />
       </section>
-       <section className="project">
+       <div className="triangle" style={{background: "#f7f7f7"}}/>
+      <div className="triangle-two" style={{background: "#ece4d8"}}/>
+      <section className="projects">
+        <h1 className="project-title"> Proyectos </h1>
+        <div className="project">
           <Project />
-        </section>
-              <section className="contact">
+        </div>
+      </section>
+        <div className="arrow" />
+      <div className="arrow-two" />
+      <section className="contact">
         <div>
           <p>CONTACTO</p>
         </div>
@@ -37,6 +45,6 @@ import Contact from "./components/contact";
       </section>
     </div>
   );
-}
+};
 
 export default App;

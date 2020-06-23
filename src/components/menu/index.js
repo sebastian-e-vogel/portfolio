@@ -29,7 +29,7 @@ const Menu = () => {
         </Link>
         <Link
           activeClass="active"
-          to="project"
+          to="projects"
           spy={true}
           smooth={true}
           duration={500}
