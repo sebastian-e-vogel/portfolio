@@ -5,6 +5,8 @@ import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Menu from "./components/menu";
 import Project from './components/project';
+import Contact from "./components/contact";
+
 
 
 
@@ -27,6 +29,14 @@ import Project from './components/project';
           <Project />
           <Project />
         </section>
+              <section className="contact">
+        <div>
+          <p>CONTACTO</p>
+        </div>
+        <div>
+          <Contact />
+        </div>
+      </section>
     </div>
   );
 }
