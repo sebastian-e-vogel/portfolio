@@ -46,3 +46,10 @@
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
+
+
+@media (max-width: 1570px) {
+  .header{
+    justify-content: space-between;
+  }
+}
