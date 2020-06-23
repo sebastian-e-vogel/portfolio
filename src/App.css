@@ -36,9 +36,8 @@
 
 .welcome::before {
   content: "BIENVENIDO";
-  border-top: 3px solid var(--detail-color);
-  border-left: 3px solid var(--detail-color);
-  border-bottom: 3px solid var(--detail-color);
+  border: 3px solid var(--detail-color);
+  border-right:none; 
   font-weight: 900;
   font-size: 5em;
   background: var(--secondary-color);

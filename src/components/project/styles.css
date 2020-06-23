@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .container-data {
+    border-radius: 1rem;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 0 2rem;
+    margin: 40px;
+    width: 520px;
+    height: 520px;
+    transition: all 1s;
+  }
+  
+  .container-data:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 1rem;
+  }
+  
+  
+  .card-title {
+    font-size: 1em;
+    font-weight: 9;
+    transition: all 0.5s;
+    font-family: "roboto";
+    color: var(--detail-color);
+    text-align: center;
+  }
+  
+  .card-description {
+    font-family: "montserrat";
+    font-size: 1.1em;
+    color: black;
+  }
+  
