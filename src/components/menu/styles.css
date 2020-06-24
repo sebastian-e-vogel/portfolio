@@ -53,3 +53,30 @@
     justify-content: space-between;
   }
 }
+
+
+@media (max-width: 960px) {
+  .header-navigation{
+    flex-direction: column;
+    order: 0;
+   
+  }
+  .centerLink{
+    text-align: center;
+  }
+  .header{
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-logo { 
+    order:2;
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 366px) {
+  .header-logo a{
+font-size: 30px;
+ }
+}

@@ -23,27 +23,30 @@
 }
 
 .welcome {
-  font-family: "montserrat";
-  color: white;
   background-color: var(--main-color);
   width: 50%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
   border-right: 3px solid var(--detail-color);
 }
 
 .welcome::before {
+  color: white;
   content: "BIENVENIDO";
   border: 3px solid var(--detail-color);
-  border-right:none; 
   font-weight: 900;
   font-size: 5em;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 0 30px;
+  margin-right: -3px;
+  border-right:none; 
   background: var(--secondary-color);
-  position: relative;
-  width: 80.4%;
-  left: 20%;
+  font-family: 'montserrat';
 }
 
 .container-welcome {
@@ -164,21 +167,64 @@
 }
 
 
-
-@media (max-width: 1261px) {
+@media (max-width: 690px) {
   .welcome::before {
-    width: 80.5%;
+    font-size: 4.5em;
+    letter-spacing: 8px;
   }
 }
 
-@media (max-width: 1203px) {
+@media (max-width: 620px) {
   .welcome::before {
-    width: 80.6%;
+    font-size: 4em;
+
   }
 }
 
-@media (max-width: 1007px) {
+@media (max-width: 601px) {
+  .project {
+    max-width: 500px;
+
+  }
+}
+
+@media (max-width: 550px) {
   .welcome::before {
-    width: 80.7%;
+    font-size: 3.5em;
+    padding: 0 20px;
+
+  }
+}
+
+@media (max-width: 485px) {
+  .welcome::before {
+    font-size: 3.3em;
+    padding: 0 10px;
+
+  }
+}
+
+
+@media (max-width: 455px) {
+  .welcome::before {
+    letter-spacing: 5px;
+
+  }
+}
+
+
+@media (max-width: 455px) {
+  .welcome::before {
+    letter-spacing: 4px;
+    font-size: 3em;
+
+  }
+}
+
+@media (max-width: 380px) {
+  .welcome::before {
+    letter-spacing: 3px;
+    font-size: 2.6em;
+padding:0 
   }
 }

@@ -24,6 +24,7 @@ const Menu = () => {
           spy={true}
           smooth={true}
           duration={500}
+          className="centerLink"
         >
           Skills
         </Link>

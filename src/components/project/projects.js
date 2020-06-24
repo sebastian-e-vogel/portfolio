@@ -10,7 +10,7 @@ const projects = [
   {
     projectName: "Portfolio Personal",
     description:
-      "Realice mi portfolio personal en el cual estas navegando! Trabajando desde el diseño hasta la funcionalidad.",
+      "Realicé mi portfolio personal en el cual estas navegando! Trabajando desde el diseño hasta la funcionalidad.",
     image: "https://fotos.subefotos.com/2b8faa5eb3acf585684a6358f42c94ffo.jpg",
     link: "#"
   }

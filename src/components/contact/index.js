@@ -6,7 +6,7 @@ import {
   LinkedinSquare
 } from "@styled-icons/boxicons-logos";
 import { Mail } from "@styled-icons/feather/Mail";
-import { Mobile } from "@styled-icons/entypo/Mobile";
+
 
 const MailIcon = styled(Mail)`
   color: white;
@@ -41,16 +41,6 @@ const InstagramIcon = styled(Instagram)`
   }
 `;
 
-const MobileIcon = styled(Mobile)`
-  color: white;
-  width: 60px;
-  height: 60px;
-  margin-left: 10px;
-  cursor: pointer;
-  &:hover {
-    color: #4b6cc1;
-  }
-`;
 
 const GithubIcon = styled(Github)`
   color: white;
@@ -72,11 +62,8 @@ const Contact = () => {
       <a href="https://www.github.com/sebastian-e-vogel">
         <GithubIcon />
       </a>
-      <a href="https://sebastian.e.vogel@gmail.com">
+      <a href="mailito:sebastian.e.vogel@gmail.com">
         <MailIcon />
-      </a>
-      <a href="http://www.google.com">
-        <MobileIcon />
       </a>
       <a href="http://www.instagram.com/voogelsebastian">
         <InstagramIcon />

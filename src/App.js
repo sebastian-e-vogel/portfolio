@@ -1,12 +1,10 @@
 import React from "react";
 import "./App.css";
-
 import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Menu from "./components/menu";
 import Project from "./components/project";
 import Contact from "./components/contact";
-import { styled } from 'styled-components';
 
 const App = () => {
   return (

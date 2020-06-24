@@ -35,8 +35,53 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   font-weight: bold;
+  text-align: justify;
 }
 
 .profile-description span {
+font-size: 1.2em;
   color: var(--detail-color);
+}
+
+@media (max-width: 750px) {
+  .profile-title {
+    font-size: 1.7em;
+  }
+  .profile-description{
+    text-align: start;
+  }
+}
+
+@media (max-width: 620px) {
+  .profile-title {
+    font-size: 1.5em;
+
+  }
+}
+
+@media (max-width: 590px) {
+  .profile-title {
+    font-size: 1.3em;
+
+  }
+  .profile-description{
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 525px) {
+  .profile-title {
+    font-size: 1.2em;
+
+  }
+}
+
+@media (max-width: 494px) {
+  .profile-title {
+    font-size: 1em;
+
+  }
+  .profile-description{
+    font-size: 0.9em;
+  }
 }
