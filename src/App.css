@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap");
 *,
 *::before,
 *::after {
@@ -44,15 +44,14 @@
   letter-spacing: 10px;
   padding: 0 30px;
   margin-right: -3px;
-  border-right:none; 
+  border-right: none;
   background: var(--secondary-color);
-  font-family: 'montserrat';
+  font-family: "montserrat";
 }
 
 .container-welcome {
   background: var(--secondary-color);
 }
-
 
 .aboutMe {
   padding: 40px;
@@ -148,8 +147,7 @@
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
-
-.arrow{
+.arrow {
   background: var(--main-color);
   margin: 0;
   width: 100%;
@@ -166,7 +164,6 @@
   clip-path: polygon(100% 0, 0 0, 50% 50%);
 }
 
-
 @media (max-width: 690px) {
   .welcome::before {
     font-size: 4.5em;
@@ -177,14 +174,12 @@
 @media (max-width: 620px) {
   .welcome::before {
     font-size: 4em;
-
   }
 }
 
 @media (max-width: 601px) {
   .project {
     max-width: 500px;
-
   }
 }
 
@@ -192,7 +187,6 @@
   .welcome::before {
     font-size: 3.5em;
     padding: 0 20px;
-
   }
 }
 
@@ -200,24 +194,19 @@
   .welcome::before {
     font-size: 3.3em;
     padding: 0 10px;
-
   }
 }
-
 
 @media (max-width: 455px) {
   .welcome::before {
     letter-spacing: 5px;
-
   }
 }
-
 
 @media (max-width: 455px) {
   .welcome::before {
     letter-spacing: 4px;
     font-size: 3em;
-
   }
 }
 
@@ -225,6 +214,6 @@
   .welcome::before {
     letter-spacing: 3px;
     font-size: 2.6em;
-padding:0 
+    padding: 0;
   }
 }

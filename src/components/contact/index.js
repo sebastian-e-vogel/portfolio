@@ -3,10 +3,9 @@ import styled from "styled-components";
 import {
   Instagram,
   Github,
-  LinkedinSquare
+  LinkedinSquare,
 } from "@styled-icons/boxicons-logos";
 import { Mail } from "@styled-icons/feather/Mail";
-
 
 const MailIcon = styled(Mail)`
   color: white;
@@ -40,7 +39,6 @@ const InstagramIcon = styled(Instagram)`
     color: #4b6cc1;
   }
 `;
-
 
 const GithubIcon = styled(Github)`
   color: white;

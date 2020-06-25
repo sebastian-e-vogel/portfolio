@@ -23,15 +23,15 @@ const App = () => {
       <section className="skills">
         <Skills />
       </section>
-       <div className="triangle" style={{background: "#f7f7f7"}}/>
-      <div className="triangle-two" style={{background: "#ece4d8"}}/>
+      <div className="triangle" style={{ background: "#f7f7f7" }} />
+      <div className="triangle-two" style={{ background: "#ece4d8" }} />
       <section className="projects">
         <h1 className="project-title"> Proyectos </h1>
         <div className="project">
           <Project />
         </div>
       </section>
-        <div className="arrow" />
+      <div className="arrow" />
       <div className="arrow-two" />
       <section className="contact">
         <div>

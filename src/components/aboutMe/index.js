@@ -22,7 +22,7 @@ const AboutMe = () => {
               "Entusiasta",
               1000,
               "Sebastian!",
-              1000
+              1000,
             ]}
             loop={Infinity}
             wrapper="b"

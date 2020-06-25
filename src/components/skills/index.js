@@ -7,7 +7,7 @@ const Skills = () => {
     <div className="technologies-container">
       <h1 className="skills-title"> Skills </h1>
       <div className="technologies">
-        {technologies.mainTechnologies.map(technologie => {
+        {technologies.mainTechnologies.map((technologie) => {
           return (
             <div key={technologie.name} className="technologie">
               <div className="icon-technologie">{technologie.component}</div>
