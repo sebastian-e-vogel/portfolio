@@ -53,11 +53,15 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 530px) {
+  .card img {
+    height: 76%;
+  }
   .container-data {
-    width: 450px;
+    height: 500px;
   }
 }
+
 @media (max-width: 470px) {
   .container-data {
     width: 400px;
@@ -66,20 +70,19 @@
 
 @media (max-width: 410px) {
   .container-data {
-    width: 350px;
-    height: 400px;
+    width: 390px;
+    height: 550px;
   }
   .card img {
-    height: 74%;
+    height: 70%;
   }
 }
 
 @media (max-width: 364px) {
   .container-data {
-    width: 310px;
-    height: 400px;
+    width: 350px;
   }
   .card img {
-    height: 74%;
+    height: 60%;
   }
 }

@@ -96,6 +96,7 @@
 .project {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .contact {
@@ -179,7 +180,7 @@
 
 @media (max-width: 601px) {
   .project {
-    max-width: 500px;
+    /* max-width: 500px; */
   }
 }
 
