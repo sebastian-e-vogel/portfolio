@@ -6,6 +6,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a:-webkit-any-link{
+  color:black
+}
+a:link:visited { 
+  color: black
+}
+
+a:link {color: black}
+a:visited {color: black}
 :root {
   --main-color: #1f1d1d;
   --secondary-color: rgb(94, 94, 94);
