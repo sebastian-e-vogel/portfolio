@@ -8,6 +8,12 @@ const projects = [
     link: "https://starwars-finder.herokuapp.com/",
   },
   {
+    projectName: "Reserva de hoteles",
+    description:
+      "Uno de los proyectos de Acamica. Trabajando desde el diseño hasta la funcionalidad de los filtros ",
+    image: "https://fotos.subefotos.com/78b23351e26a620d08075ec9df0bcc03o.jpg",
+    link: "https://reservahoteles.netlify.app/",
+  },  {
     projectName: "Portfolio Personal",
     description:
       "Realicé mi portfolio personal en el cual estas navegando! Trabajando desde el diseño hasta la funcionalidad.",

@@ -30,6 +30,7 @@
 
 .card img {
   width: 100%;
+  min-height: 325px;
   max-height: 325px;
   border-radius: 1rem 1rem 0 0;
 }
